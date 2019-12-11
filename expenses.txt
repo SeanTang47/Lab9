@@ -1,26 +1,38 @@
+
 The task is to develop an expenses system, to allow users to track their expenditure. 
 
-Main menu
+Main menu - with 3 different options (2 menu and 1 exit option)
   - Edit 
   - Analysis
   - Quit
 
-Edit menu
-  -Add item
-    *Items consist of 3 fields created by user:
-      >Item Description
-      >Category
-      >Amount user spend
-   -Remove Item
-    *User Seaches for item and it is removed
-   - Cancel
-    >Send back to main menu
-Analyse menu
-  - How much was spend per category
-    >add total cost per cateforyu together, display with category name
-   - average cost of item
-    > find the mean cost of all item bought
-   - Total cost of all items
-    >sums of the cost for all items bought
-   - Cancel
-   > senback to main menu
+
+- Edit menu - 
+Should have 3 options for the user to pick from
+
++Add item
+	> Items consist of 3 fields created by user:
+		> Item Description
+		> Category
+		> Amount user spend
+
++Remove Item
+	> User Seaches for item and it is removed
+
++Cancel
+	> Send back to main menu
+
+
+- Analyse menu -
+A summary menu for the user
+	>How much was spend per category
+		> Add total cost per cateforyu together, display with category name
+
+	> Average cost for all item
+		> Find the mean cost of all item bought
+
+	> Total cost of all items
+		> Sums of the cost for all items bought
+
+	> Cancel
+		> Send user back to main menu
